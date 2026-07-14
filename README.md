@@ -81,3 +81,31 @@ Query OK, 1 row affected (0.0212 sec)
                                          -> );
 Query OK, 0 rows affected (0.0361 sec)
 
+ MySQL  localhost:33060+ ssl  trisha  SQL > insert into customers values (111,'ravi','ravi23@gmail.com',3456788990,'2024-1-14'),
+                                         -> (112,'lakshman','lucky@gmailcom',9343456789,'2024-06-12'),
+                                         -> (113,'ganesh','gani@gmail.com',9876345602,'2024-02-20'),
+                                         -> (114,'rohith','roki@gmail.com',9550346169,'2024-03-24'),
+                                         -> (115,'manasa','manasa123@gmail.com',3456788909,'2024-04-17'),
+                                         -> (117,'lakshmi','lucky75@gmail.com',6302236043,'2024-10-11'),
+                                         -> (118,'srikanth','srikanth90@gmail.com',9087890986,'2024-11-29'),
+                                         -> (119,'ramesh','ramesh456@gmail.com',4756446376,'2024-08-27'),
+                                         -> (120,'priya','priya24@gmail.com',1235689968,'2024-07-07');
+Query OK, 10 rows affected (0.0890 sec)
+ MySQL  localhost:33060+ ssl  trisha  SQL > select * from customers;
++-------------+----------+----------------------+------------+-------------------+
+| customer_id | name     | email                | phone      | registration_date |
++-------------+----------+----------------------+------------+-------------------+
+|         111 | ravi     | ravi23@gmail.com     | 3456788990 | 2024-01-14        |
+|         112 | lakshman | lucky@gmailcom       | 9343456789 | 2024-06-12        |
+|         113 | ganesh   | gani@gmail.com       | 9876345602 | 2024-02-20        |
+|         114 | rohith   | roki@gmail.com       | 9550346169 | 2024-03-24        |
+|         115 | manasa   | manasa123@gmail.com  | 3456788909 | 2024-04-17        |
+|         116 | trisha   | trisha@gmail.com     | 9346430722 | 2024-09-27        |
+|         117 | lakshmi  | lucky75@gmail.com    | 6302236043 | 2024-10-11        |
+|         118 | srikanth | srikanth90@gmail.com | 9087890986 | 2024-11-29        |
+|         119 | ramesh   | ramesh456@gmail.com  | 4756446376 | 2024-08-27        |
+|         120 | priya    | priya24@gmail.com    | 1235689968 | 2024-07-07        |
++-------------+----------+----------------------+------------+-------------------+
+
+
+                                         
